@@ -17,7 +17,7 @@ const App = () => {
     <div>
       <p>Enter your name:</p>
        <input type="text" onChange={Greeting}></input>
-       {showResult && <p>Hello {counter}</p>}
+       {showResult && <p>Hello {counter}!</p>}
     </div>
   )
 }
