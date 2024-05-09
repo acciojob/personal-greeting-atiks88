@@ -17,7 +17,7 @@ const App = () => {
     <div id="main">
       <label>Enter your name:</label>
        <input type="text" onChange={Greeting}></input>
-       <p>{showResult && <p>Hello {counter}!</p>}</p>
+       <p>{showResult ? `Hello ${counter}!` : null}</p>
     </div>
   );
 }
