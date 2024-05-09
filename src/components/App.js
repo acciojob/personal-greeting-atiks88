@@ -14,12 +14,12 @@ const App = () => {
   }
 
   return (
-    <div>
-      <p>Enter your name:</p>
+    <div id="main">
+      <label>Enter your name:</label>
        <input type="text" onChange={Greeting}></input>
        {showResult && <p>Hello {counter}!</p>}
     </div>
-  )
+  );
 }
 
 export default App
